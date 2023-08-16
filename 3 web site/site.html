@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>my website</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>My Website</h1>
+        <p>Resize the browser window to see the effect.</p>
+    </header>
+
+    <nav class="topnav">
+        <ul class="ul">
+            <li class="li"><a href="#">Link</a></li>
+            <li class="li"><a href="#">Link</a></li>
+            <li class="li"> <a href="#">Link</a></li>
+            <li class="li"> <a href="#" class="dropdown">
+                    <button class="dropdownbtn">Menu</button>
+                    <div class="dropdowncontent">
+                        <a href="#">sub menu</a>
+                        <a href="#">sub menu2</a>
+                    </div>
+                </a></li>
+
+            <li class="li rightlist">
+                <p><i style="font-size:24px" class="fa logo">&#xf1bc;</i></p>
+            </li>
+            <li class="li rightlist"><a href="#" style="float:right">Link</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="row">
+        <section class="leftcolumn">
+            <div class="card" id="pic">
+
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Dec 7, 2017</h5>
+                <img src="img/pineapple.png" class="right">
+                <p>Some text..</p>
+                <p class="decor">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
+                    elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</p>
+            </div>
+            <article class="card" id="pic">
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Sep 2, 2017</h5>
+                <img src="img/london.jpg" class="right">
+                <p>Some text..</p>
+                <p class="decor">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
+                    elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</p>
+            </article>
+        </section>
+        <section class="rightcolumn">
+            <div class="card">
+                <div class="register">
+                    <h2>Login</h2>
+                    <form>
+                        <select name="user type">
+                            <option value="admin">admin</option>
+                            <option value="normal user">normal user</option>
+                        </select>
+                        <input type="text" name="user" , placeholder="user" class="input">
+                        <input type="password" name="pass" placeholder="password" class="input">
+                        <input type="checkbox" name="remember">
+                        <label for="remember" class="rem">Remember me</label>
+                        <input type="submit" value="login" class="submit">
+                        <a href="register.html" target="iframe_a">Register</a>
+
+                    </form>
+                </div>
+                <iframe name="iframe_a" height="250px" width="100%" id="reg"></iframe>
+
+
+
+
+            </div>
+            <div class="card">
+                <h3>Popular Post</h3>
+                <div style="overflow-y:scroll;">
+                    <ul class="follow" style="float:left; height:300px;list-style-type:none;width:90%;">
+                        <li class="hover" id="scroll">Link 1</li>
+                        <li class="hover" id="scroll">Link 2</li>
+                        <li class="hover" id="scroll">Link 3</li>
+                        <li class="hover" id="scroll">Link 4</li>
+                        <li class="hover" id="scroll">Link 5</li>
+                        <li class="hover" id="scroll">Link 6</li>
+                        <li class="hover" id="scroll">Link 7</li>
+                        <li class="hover" id="scroll">Link 8</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Followers</h3>
+                <div style="overflow-y:scroll;">
+                    <ul class="follow" style="float:left; height:300px;list-style-type:none;width:90%;">
+                        <li class="hover"><img width="50" src="img/person-icon.png" />Link 1<button>Follow</button></li>
+                        <li class="hover"><img width="50" src="img/person-icon.png" />Link 2<button>Follow</button></li>
+                        <li class="hover"><img width="50" src="img/person-icon.png" />Link 3<button>Follow</button></li>
+                        <li class="hover"><img width="50" src="img/person-icon.png" />Link 4<button>Follow</button></li>
+                        <li class="hover"><img width="50" src="img/person-icon.png" />Link 5<button>Follow</button></li>
+                        <li class="hover"><img width="50" src="img/person-icon.png" />Link 6<button>Follow</button></li>
+                        <li class="hover"><img width="50" src="img/person-icon.png" />Link 7<button>Follow</button></li>
+                        <li class="hover"><img width="50" src="img/person-icon.png" />Link 8<button>Follow</button></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="contact">
+            <h3>Contact us</h3>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" name="name" class="input2">
+                <label for="email">Email</label>
+                <input type="email" name="email" class="input2">
+                <label for="desc">Description</label>
+                <textarea name="desc" class="input2 des"></textarea>
+                <label for="tel">Tel</label>
+                <input type="text" name="tel" class="input2">
+                <input type="submit" value="send" class="submit">
+            </form>
+        </div>
+        <h4>&#169; Sahar Mohammadi</h4>
+    </footer>
+
+</body>
+
+</html>
